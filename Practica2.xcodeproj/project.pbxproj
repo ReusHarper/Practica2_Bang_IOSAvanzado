@@ -13,6 +13,9 @@
 		A2DBA8E5292D5E6700FCCA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBA8E3292D5E6700FCCA75 /* Main.storyboard */; };
 		A2DBA8E7292D5E6900FCCA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DBA8E6292D5E6900FCCA75 /* Assets.xcassets */; };
 		A2DBA8EA292D5E6900FCCA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBA8E8292D5E6900FCCA75 /* LaunchScreen.storyboard */; };
+		A2DBA8F2292D61A100FCCA75 /* loud_bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2DBA8F1292D61A100FCCA75 /* loud_bang.mp3 */; };
+		A2DBA8F5292D713700FCCA75 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBA8F4292D713600FCCA75 /* AVKit.framework */; };
+		A2DBA8F7292D713E00FCCA75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBA8F6292D713E00FCCA75 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A2DBA8E6292D5E6900FCCA75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DBA8E9292D5E6900FCCA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DBA8EB292D5E6900FCCA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DBA8F1292D61A100FCCA75 /* loud_bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loud_bang.mp3; sourceTree = "<group>"; };
+		A2DBA8F4292D713600FCCA75 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A2DBA8F6292D713E00FCCA75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DBA8F7292D713E00FCCA75 /* AVFoundation.framework in Frameworks */,
+				A2DBA8F5292D713700FCCA75 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,7 @@
 			children = (
 				A2DBA8DC292D5E6700FCCA75 /* Practica2 */,
 				A2DBA8DB292D5E6700FCCA75 /* Products */,
+				A2DBA8F3292D713600FCCA75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +65,7 @@
 		A2DBA8DC292D5E6700FCCA75 /* Practica2 */ = {
 			isa = PBXGroup;
 			children = (
+				A2DBA8F1292D61A100FCCA75 /* loud_bang.mp3 */,
 				A2DBA8DD292D5E6700FCCA75 /* AppDelegate.swift */,
 				A2DBA8DF292D5E6700FCCA75 /* SceneDelegate.swift */,
 				A2DBA8E1292D5E6700FCCA75 /* ViewController.swift */,
@@ -65,6 +75,15 @@
 				A2DBA8EB292D5E6900FCCA75 /* Info.plist */,
 			);
 			path = Practica2;
+			sourceTree = "<group>";
+		};
+		A2DBA8F3292D713600FCCA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DBA8F6292D713E00FCCA75 /* AVFoundation.framework */,
+				A2DBA8F4292D713600FCCA75 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,7 @@
 			files = (
 				A2DBA8EA292D5E6900FCCA75 /* LaunchScreen.storyboard in Resources */,
 				A2DBA8E7292D5E6900FCCA75 /* Assets.xcassets in Resources */,
+				A2DBA8F2292D61A100FCCA75 /* loud_bang.mp3 in Resources */,
 				A2DBA8E5292D5E6700FCCA75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
